@@ -1,170 +1,293 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+	================================================== -->
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Work Template</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
-
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
-
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<title>Typefolio</title>
+	<meta name="description" content=".">
+	<meta name="author" content="">
 	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- CSS Files
+	* cssreset-min.css 			- CSS reset
+	* typegrid.css				- Responsive grid system
+	* style.css					- Main CSS file
+	
+	Original LESS Stylesheet
+	<link rel="stylesheet/less" type="text/css" href="css/style.less" />
+	================================================== -->
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.8.0/build/cssreset/cssreset-min.css">
+	<link rel="stylesheet" type="text/css" href="css/typegrid.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
+
+		
+	<!--[if lt IE 8]>
+		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
 	<![endif]-->
 
-	</head>
-	<body>
-	<div id="colorlib-page">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<h1 id="colorlib-logo"><a href="index.html"><span>Wo</span><span>rk</span></a></h1>
-			<nav id="colorlib-main-menu" role="navigation">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="work.html">Work</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="blog.html">Blog</a></li>
-					<li class="colorlib-active"><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 
-			<div class="colorlib-footer">
-				<p><small><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> <span>Demo Images: <a href="http://nothingtochance.co/" target="_blank">nothingtochance.co</a></span></small></p>
-				<ul>
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
-					<li><a href="#"><i class="icon-twitter2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
-					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-				</ul>
-			</div>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
 
-		</aside>
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-		<div id="colorlib-main">
+</head>
 
-			<div class="colorlib-contact">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-md-12">
-							<span class="heading-meta">Read</span>
-							<h2 class="colorlib-heading animate-box" data-animate-effect="fadeInLeft">Get in Touch</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-5 col-md-push-6">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-globe-outline"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="#">info@domain.com</a></p>
-								</div>
-							</div>
+<body>
 
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-map"></i>
-								</div>
-								<div class="colorlib-text">
-									<p>198 West 21th Street, Suite 721 New York NY 10016</p>
-								</div>
-							</div>
 
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-phone"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="tel://">+123 456 7890</a></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-7 col-md-pull-5">
-							<div class="row">
-								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInLeft">
-									<form action="">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Phone">
-										</div>
-										<div class="form-group">
-											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-										</div>
-										<div class="form-group">
-											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
-										</div>
-									</form>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+	<!-- Header - Half Logo
+	================================================== -->
+	<section id="header">
 
-			<div id="map"></div>	
-		</div>
-	</div>
+		<!-- * * * * * * * * * * * * * * * * * * * * * * *
 
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Sticky Kit -->
-	<script src="js/sticky-kit.min.js"></script>
-	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
+			Top Bar & Menu (#nav)
+
+		* * * * * * * * * * * * * * * * * * * * * * * * -->
+		<div class="topbar">
+			<div class="container">
+					
+				<!--
+					A custom jQuery plugin called typeMenu handles the menu
+					Add .hide-on-mobile to <li> elements to hide a specific item on mobile viewports
+				-->
+				<ul id="nav" class="full">
+					<li>
+						<a href="about.html">
+							<span class="count hide-on-mobile">01.</span>
+							About
+						</a>
+						<ul>
+							<li><a href="index-with-iosslider.html">Home w/ Slider</a></li>
+							<li><a href="index-with-flexslider.html">Home w/ Slider 2</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="works-stackgrid-with-title.html">
+							<span class="count hide-on-mobile">02.</span>
+							Works
+						</a>
+						<ul>
+							<li><a href="works-stackgrid-images.html">Images Only</a></li>
+							<li><a href="works-architecture-three-columns.html">Architecture</a></li>
+							<li class="hide-on-mobile"><a href="works-architecture-two-columns.html">Two Columns</a></li>
+							<li>
+								<a href="single-photography-sidebar-right.html">Single</a>
+								<ul>
+									<li><a href="single-photography-full-width.html">Full Width</a></li>
+									<li><a href="single-photography-sidebar-left.html">Left Sidebar</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="shop.html">
+							<span class="count hide-on-mobile">03.</span>Shop
+						</a>
+						<ul>
+							<li><a href="shop-item.html">Single Item</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="archive-blog.html">
+							<span class="count hide-on-mobile">04.</span>
+							Blog
+						</a>
+						<ul>
+							<li><a href="single-blog.html">Single Page</a></li>
+						</ul>
+					</li>
+					
+				</ul><!-- // #nav -->
+
+			</div><!-- // .container -->
+		</div><!-- // .topbar -->
+
+		<div class="logo-wrap">
+			<div class="container">
+				<div class="desktop-6 columns">
+					<h1><a href="index.html" title="Home"><img src="images/logo_text_half.png" alt="" /></a></h1>
+				</div><!-- // .desktop-6 -->
+
+				<div class="desktop-6 columns">
+					<p class="site-desc">
+						Emily Bernd &amp; Associates<br />
+						<span class="font-color-primary">From product to all things digital</span>
+					</p><!-- // .site-desc -->
+				</div><!-- // .desktop-6 -->
+
+				<div class="clear"></div>
+			</div><!-- // .container -->
+		</div><!-- // .logo-wrap -->
+	</section><!-- // #header -->
+
+	<!-- Contact
+	================================================== -->
+	<section id="contact" class="section page">
+		<div class="container">
+
+			<div class="desktop-6 tablet-12 columns">
+
+				<h2 class="border-top">Contact</h2>
+				<p class="title-desc">Find Us Here</p>
+
+				<div id="contact-warning">
+					Error messages
+				</div><!-- // #contact-warning -->
+				
+				<div id="contact-success">
+					Email successfuly sent, thank you.<br />	
+				</div><!-- // #contact-warning -->
+				
+				<form name="contactForm" id="contactForm" method="post" action="">
+					<fieldset>
+					
+						<label for="contactName">Name <span class="required">*</span></label>
+						<input name="contactName" type="text" id="contactName" size="30" value="" />
+						
+						<br />
+						<label for="contactEmail">Email <span class="required">*</span></label>
+						<input name="contactEmail" type="text" id="contactEmail" size="30" value="" />
+                        
+                        <br />
+						<label for="contactMessage">Message <span class="required">*</span></label>
+						<textarea name="contactMessage" id="contactMessage" rows="6" cols="7"></textarea>
+                        
+                        <br />
+						<label for="contactCaptcha"><strong>10</strong> + <strong>6</strong> = <span class="required">*</span></label>
+						<input name="contactCaptcha" type="text" id="contactCaptcha" size="30" value="" />
+
+						<input name="contactCaptchaAnswer" type="hidden" id="contactCaptchaAnswer" value="16" />
+
+						<br />
+						<label class="placeholder">&nbsp;</label>
+						<input type="submit" class="button full" value="Submit" />
+					</fieldset>
+				</form>
+				
+				<div class="clear"></div>
+
+			</div><!-- // .desktop-6 -->
+
+			
+			<div class="desktop-6 tablet-12 nested columns">
+				
+				<div class="desktop-6 tablet-12 columns">
+					<h2 class="border-top">Location</h2>
+					<p class="title-desc">At the heart of Chicago</p>
+
+					<div id="map"></div>
+				</div><!-- // .desktop-6 -->
+
+				<div class="clear"></div>
+
+				<div class="desktop-3 tablet-6 mobile-half columns">
+					
+					<div class="box-contact">
+						<h3 class="font-color-primary"><span class="underline">Address</span></h3>
+
+						<p>
+							66 Turners Falls Rd <br />
+							Turners Falls, MA 01376<br />
+							(413) 863-1324
+						</p>
+					</div><!-- // .box-contact -->
+
+				</div><!-- // .desktop-3 -->
+
+				<div class="desktop-3 tablet-6 mobile-half columns">
+					
+					<div class="box-contact">
+						<h3 class="font-color-primary"><span class="underline">Email</span></h3>
+
+						<p>
+							<a href="mailto:typebig@gmail.com">typebig@gmail.com</a>
+						</p>
+					</div><!-- // .box-contact -->
+
+				</div><!-- // .desktop-3 -->
+
+				<div class="clear"></div>
+
+			</div><!-- // .desktop-6 -->
+
+		</div><!-- // .container -->
+	</section><!-- // section#contact -->
+
 	
-	
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
 
-	</body>
+
+
+	<!-- Footer
+	================================================== -->
+	<section id="footer">
+		<div class="container">
+			<div class="desktop-3 columns">
+				<p>Copyright &copy; <a href="http://www.typebig.com" class="italic">Typebig</a></p>
+			</div><!-- // .desktop-3 -->
+
+			<div class="desktop-9 columns">
+				<ul id="social">
+					<li><a href="http://www.facebook.com" class="hoverMe">Facebook</a></li>
+					<li><a href="http://www.twitter.com" class="hoverMe">Twitter</a></li>
+					<li><a href="http://www.google.com" class="hoverMe">Google+</a></li>
+				</ul><!-- // #social -->
+			</div><!-- // .desktop-9 -->
+
+			<div class="clear"></div>
+		</div><!-- // .container -->
+	</section><!-- // section#footer -->
+
+
+	<!-- JS
+	================================================== -->
+	<!-- 
+		Flexslider 2.1 has known issues of manualControls setting with jQuery 1.9~
+		Use jQuery 1.8 until Flexslider 2.2 stable version is released
+	-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script src="js/jQuery.BlackAndWhite.min.js"></script>
+	<script src="js/modernizr.js"></script>
+	<script src="js/less-1.4.0.min.js"></script>
+	<script src="js/jquery.typeMenu.js"></script>
+	<script src="js/jquery.typeSticky.js"></script>
+
+
+	
+
+	
+
+
+	
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+	<script src = "js/googleMapStyle.js"></script>
+
+	
+
+
+	<script src="js/jquery.custom.js"></script>
+
+
+<!-- End Document
+================================================== -->
+</body>
 </html>
-
